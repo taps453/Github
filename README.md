@@ -6,7 +6,9 @@
 <hr>
 <h4>Git commands</h4>
 <li>
-  git init - Initializes a new Git repository.
+  ```bash
+  git init
+  ```- Initializes a new Git repository.
 </li>
 <li>
   git clone [url] - Creates a copy of a remote repository on your local machine.
