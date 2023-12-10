@@ -68,8 +68,6 @@
 
 <hr>
 
-markdown
-Copy code
 # Git Commands Reference
 
 This document provides a quick reference for commonly used Git commands.
@@ -83,160 +81,135 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 Set your name and email globally for Git.
 
-Repository Initialization
+### Repository Initialization
+
 Create a New Repository
-bash
-Copy code
+
 git init
 Initialize a new Git repository in the current directory.
 
-Clone a Repository
-bash
-Copy code
+### Clone a Repository
+
 git clone <repository-url>
 Clone an existing repository to your local machine.
 
-Make Changes
-Check Repository Status
-bash
-Copy code
+
+### Check Repository Status
+
 git status
 Show the status of changes as untracked, modified, or staged.
 
-Stage Changes
-bash
-Copy code
+### Stage Changes
+
 git add <file(s)>
 Stage changes for the next commit.
 
-Commit Changes
-bash
-Copy code
+## Commit Changes
+
 git commit -m "Commit message"
 Commit staged changes with a descriptive message.
 
-Branching
-Create a New Branch
-bash
-Copy code
+## Branching
+### Create a New Branch
+
 git branch <branch-name>
 Create a new branch for feature development or bug fixing.
 
-Switch Branch
-bash
-Copy code
+### Switch Branch
+
 git checkout <branch-name>
 Switch to an existing branch.
 
-Merge Branches
-bash
-Copy code
+### Merge Branches
+
 git merge <branch-name>
 Merge changes from one branch into the current branch.
 
-Delete a Branch
-bash
-Copy code
+### Delete a Branch
+
 git branch -d <branch-name>
 Delete a branch after its changes have been merged.
 
-Remote Repositories
-Add a Remote Repository
-bash
-Copy code
+## Remote Repositories
+### Add a Remote Repository
+
 git remote add <remote-name> <repository-url>
 Add a remote repository for collaboration.
 
-Fetch Changes
-bash
-Copy code
+### Fetch Changes
+
 git fetch <remote-name>
 Fetch changes from a remote repository.
 
-Push Changes
-bash
-Copy code
+### Push Changes
+
 git push <remote-name> <branch-name>
 Push local changes to a remote repository.
 
-Pull Changes
-bash
-Copy code
+### Pull Changes
+
 git pull <remote-name> <branch-name>
 Pull changes from a remote repository into your local branch.
 
-History and Information
-View Commit History
-bash
-Copy code
+## History and Information
+### View Commit History
+
 git log
 Show the commit history.
 
-Show Changes in a Commit
-bash
-Copy code
+### Show Changes in a Commit
+
 git show <commit-hash>
 Display the changes made in a specific commit.
 
-View Differences
-bash
-Copy code
+##View Differences
+
 git diff
 Show the differences between working directory and staging area.
 
-Undoing Changes
-Discard Unstaged Changes
-bash
-Copy code
+## Undoing Changes
+### Discard Unstaged Changes
+
 git checkout -- <file(s)>
 Discard changes in your working directory.
 
-Unstage Changes
-bash
-Copy code
+## Unstage Changes
+
 git reset <file(s)>
 Unstage changes but keep them in your working directory.
 
-Amend the Last Commit
-bash
-Copy code
+## Amend the Last Commit
+
 git commit --amend
 Add changes to the last commit.
 
-Revert a Commit
-bash
-Copy code
+## Revert a Commit
+
 git revert <commit-hash>
 Create a new commit that undoes changes made in a previous commit.
 
-Collaboration
-Create a Pull Request
+## Collaboration
+###Create a Pull Request
 Use your GitHub/GitLab interface to create a pull request.
 
-Fetch Pull Request Changes
-bash
-Copy code
+### Fetch Pull Request Changes
+
 git fetch origin pull/<pr-id>/head:<branch-name>
 Fetch changes from a pull request on GitHub.
 
-Apply Pull Request Changes Locally
-bash
-Copy code
+## Apply Pull Request Changes Locally
+
 git checkout <branch-name>
 git pull <remote-name> <branch-name>
 Apply pull request changes to your local branch.
 
-Ignore Files
+## Ignore Files
 Create a .gitignore File
 Create a file named .gitignore to specify files and directories to be ignored.
 
-bash
-Copy code
 touch .gitignore
 For example, add *.log to ignore all log files.
 
-bash
-Copy code
 *.log
 Miscellaneous
 Show Git Version
@@ -248,5 +221,5 @@ Display the installed Git version.
 vbnet
 Copy code
 
-Feel free to customize and expand this README.md according to your speci
+
 
