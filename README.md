@@ -4,7 +4,7 @@
 <h3>Github</h3>
 <p>GitHub is a web-based platform that provides hosting for Git repositories. It enhances Git by providing features for collaboration, code review, and project management.</p>
 <h3>Git commands</h3>
-<p>
+<li>
   git init - Initializes a new Git repository.
 
   git clone [url] - Creates a copy of a remote repository on your local machine.
@@ -44,7 +44,7 @@
   git tag [tag_name] - Creates a lightweight tag for a specific commit.
 
   git stash - Temporarily saves changes that are not ready to be committed.
-</p>
+</li>
 
 
 
