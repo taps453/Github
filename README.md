@@ -1,10 +1,10 @@
-<h4>Git</h4>
+<h3>Git</h3>
 <p>Git is a distributed version control system that allows multiple developers to work on the same project simultaneously. It tracks changes in the source code during the development process.</p>
 <hr>
-<h4>Github</h4>
+<h3>Github</h3>
 <p>GitHub is a web-based platform that provides hosting for Git repositories. It enhances Git by providing features for collaboration, code review, and project management.</p>
 <hr>
-<h4>Git commands</h4>
+<h3>Git commands</h3>
 <li>
   ```bash
   git init
