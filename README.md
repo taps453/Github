@@ -1,13 +1,13 @@
 <h2>Git</h2>
 <p>Git is a distributed version control system that allows multiple developers to work on the same project simultaneously. It tracks changes in the source code during the development process.</p>
-<hr>
+
 <h2>Github</h2>
 <p>GitHub is a web-based platform that provides hosting for Git repositories. It enhances Git by providing features for collaboration, code review, and project management.</p>
-<hr>
+
 <h2>Git commands</h2>
-<li>
+
   <h3>git init</h3> - Initializes a new Git repository.
-</li>
+
 <li>
   git clone [url] - Creates a copy of a remote repository on your local machine.
 </li>
