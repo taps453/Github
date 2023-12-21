@@ -6,8 +6,8 @@
 
 <h2>Git commands</h2>
 
+ #Initialize a new Git repository:
  ```bash
-  #Initialize a new Git repository:
   git init  
 ```
 
