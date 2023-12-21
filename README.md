@@ -6,10 +6,9 @@
 
 <h2>Git commands</h2>
 
-  <h3>Initialize a new Git repository:</h3>
   ```bash
-  git init
-  ```
+  #Initialize a new Git repository:
+git init  
 
 <li>
   git clone [url] - Creates a copy of a remote repository on your local machine.
