@@ -6,13 +6,13 @@
 
 <h2>Git commands</h2>
 
- #Initialize a new Git repository:
+ <h3>Initialize a new Git repository:</h3>
  ```bash
   git init  
 ```
 
+<h3>Clone a repository:</h3>
 ```bash
-  #Clone a repository:
   git clone [repository_url]
 ```
 
