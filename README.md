@@ -7,41 +7,42 @@
 <h2>Git commands</h2>
 
   ```bash
-  #Initialize a new Git repository:
-git init  
 
-<li>
-  git clone [url] - Creates a copy of a remote repository on your local machine.
-</li>
-<li>
-  git add [file] - Adds changes in the working directory to the staging area.
-</li>
-<li>
-  git commit -m "message" - Records changes in the repository along with a descriptive message.
-</li>
-<li>
-  git status - Shows the status of changes as untracked, modified, or staged.
-</li>
-<li>
-  git log - Displays the commit history with commit IDs, authors, dates, and messages.
-</li>
-<li>
-  git diff - Shows changes between commits, branches, or the working directory.
-</li>
-<li>
-  git branch - Lists local branches and highlights the current branch.
-</li>
-<li>
-  git branch [branch_name] - Creates a new branch.
-</li>
-<li>
-  git checkout [branch_name] - Switches to the specified branch.
-</li>
-<li>
-  git merge [branch] - Combines changes from the specified branch into the current branch.
-</li>
-<li>
-  git pull [remote] [branch] - Fetches changes from a remote repository and merges them into the current branch.
+  #Initialize a new Git repository:
+  git init  
+
+  #Clone a repository:
+  git clone [repository_url]
+
+  #Check the status of your repository:
+  git status
+
+  #Add changes to the staging area:
+  git add [file(s)]
+
+  #Commit changes:
+  git commit -m "Your commit message"
+
+  #Displays the commit history with commit IDs, authors, dates, and messages.
+  git log
+
+  #Shows changes between commits, branches, or the working directory.
+  git diff
+
+  #Lists local branches and highlights the current branch.
+  git branch
+
+  #Creates a new branch.
+  git branch [branch_name]
+
+  #Switches to the specified branch.
+  git checkout [branch_name]
+
+  #Combines changes from the specified branch into the current branch.
+  git merge [branch]
+
+  #Fetches changes from a remote repository and merges them into the current branch.
+  git pull [remote] [branch]
 </li>
 <li>
   git push [remote] [branch] - Sends local commits to a remote repository.
