@@ -7,11 +7,13 @@
 <h2>Git commands</h2>
 
  <h3>Initialize a new Git repository:</h3>
+ 
  ```bash
   git init  
 ```
 
 <h3>Clone a repository:</h3>
+
 ```bash
   git clone [repository_url]
 ```
