@@ -11,6 +11,7 @@
   #Initialize a new Git repository:
   git init  
 
+  ```bash
   #Clone a repository:
   git clone [repository_url]
 
