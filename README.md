@@ -6,14 +6,15 @@
 
 <h2>Git commands</h2>
 
-  ```bash
-
+ ```bash
   #Initialize a new Git repository:
   git init  
+```
 
-  ```bash
+```bash
   #Clone a repository:
   git clone [repository_url]
+```
 
   #Check the status of your repository:
   git status
