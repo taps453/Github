@@ -37,62 +37,93 @@
 ```
 
   <h3>Displays the commit history with commit IDs, authors, dates, and messages.</h3>
-   ```bash
+  
+```bash
   git log
-  ```
+```
 
   <h3>Shows changes between commits, branches, or the working directory.</h3>
-   ```bash
+  
+```bash
   git diff
-  ```
+```
 
   <h3>Lists local branches and highlights the current branch.</h3>
-   ```bash
+  
+```bash
   git branch
 ```
 
   <h3>Creates a new branch.</h3>
-   ```bash
+  
+```bash
   git branch [branch_name]
-  ```
+```
 
   <h3>Switches to the specified branch.</h3>
-   ```bash
+  
+```bash
   git checkout [branch_name]
 ```
 
   <h3>Combines changes from the specified branch into the current branch.</h3>
-   ```bash
+  
+```bash
   git merge [branch]
 ```
 
   <h3>Fetches changes from a remote repository and merges them into the current branch.</h3>
-   ```bash
+  
+```bash
   git pull [remote] [branch]
-  ```
+```
 
-  git push [remote] [branch] - Sends local commits to a remote repository.
-</li>
-<li>
-  git remote -v - Lists all remote repositories.
-</li>
-<li>
-  git fetch [remote] - Downloads changes from a remote repository without merging.
-</li>
-<li>
-  git reset [file] - Unstages changes, or resets the file to the last commit.
-</li>
-<li>
-  git revert [commit] - Creates a new commit that undoes changes made in a previous commit.
-</li>
-<li>
-  git rm [file] - Removes a file from both the working directory and the staging area.
-</li>
-<li>
-  git tag [tag_name] - Creates a lightweight tag for a specific commit.
-</li>
-<li>
-  git stash - Temporarily saves changes that are not ready to be committed.
-</li>
+<h3>Sends local commits to a remote repository.</h3>
+
+ ```bash
+  git push [remote] [branch]
+``` 
+
+<h3>Lists all remote repositories.</h3>
+
+```bash
+  git remote -v
+```
+
+  <h3> Downloads changes from a remote repository without merging.</h3>
+  
+```bash
+  git fetch [remote]
+```
+
+<h3>Unstages changes, or resets the file to the last commit.</h3>
+
+```bash
+  git reset [file]
+``` 
+
+<h3>Creates a new commit that undoes changes made in a previous commit.</h3>
+
+```bash
+  git revert [commit]
+```
+  
+<h3>Removes a file from both the working directory and the staging area.</h3>
+
+```bash
+  git rm [file]
+```
+
+<h3>Creates a lightweight tag for a specific commit.</h3>
+
+```bash
+  git tag [tag_name]
+``` 
+
+<h3>Temporarily saves changes that are not ready to be committed.</h3>
+```bash
+  git stash
+```
+
 
 <hr>
