@@ -121,6 +121,7 @@
 ``` 
 
 <h3>Temporarily saves changes that are not ready to be committed.</h3>
+
 ```bash
   git stash
 ```
