@@ -1,130 +1,130 @@
-<h2>Git</h2>
-<p>Git is a distributed version control system that allows multiple developers to work on the same project simultaneously. It tracks changes in the source code during the development process.</p>
+### Git
+- Git is a distributed version control system that allows multiple developers to work on the same project simultaneously. It tracks changes in the source code during the development process.
 
-<h2>Github</h2>
-<p>GitHub is a web-based platform that provides hosting for Git repositories. It enhances Git by providing features for collaboration, code review, and project management.</p>
+### Github
+- GitHub is a web-based platform that provides hosting for Git repositories. It enhances Git by providing features for collaboration, code review, and project management.
 
-<h2>Git commands</h2>
+### Git commands
 
- <h3>Initialize a new Git repository:</h3>
+##### Initialize a new Git repository
  
  ```bash
   git init  
 ```
 
-<h3>Clone a repository:</h3>
+##### Clone a repository
 
 ```bash
   git clone [repository_url]
 ```
 
-  <h3>Check the status of your repository:</h3>
+  ##### Check the status of your repository
   
 ```bash
   git status
 ```
 
-  <h3>Add changes to the staging area:</h3>
+##### Add changes to the staging area
   
 ```bash
   git add [file(s)]
 ```
 
-  <h3>Commit changes:</h3>
+  ##### Commit changes
 
 ```bash
   git commit -m "Your commit message"
 ```
 
-  <h3>Displays the commit history with commit IDs, authors, dates, and messages.</h3>
+  ##### Displays the commit history with commit IDs, authors, dates, and messages.
   
 ```bash
   git log
 ```
 
-  <h3>Shows changes between commits, branches, or the working directory.</h3>
+  ##### Shows changes between commits, branches, or the working directory.
   
 ```bash
   git diff
 ```
 
-  <h3>Lists local branches and highlights the current branch.</h3>
+ ##### Lists local branches and highlights the current branch.
   
 ```bash
   git branch
 ```
 
-  <h3>Creates a new branch.</h3>
+  ##### Creates a new branch.
   
 ```bash
   git branch [branch_name]
 ```
 
-  <h3>Switches to the specified branch.</h3>
+  ##### Switches to the specified branch.
   
 ```bash
   git checkout [branch_name]
 ```
 
-  <h3>Combines changes from the specified branch into the current branch.</h3>
+  ##### Combines changes from the specified branch into the current branch.
   
 ```bash
   git merge [branch]
 ```
 
-  <h3>Fetches changes from a remote repository and merges them into the current branch.</h3>
+ ##### Fetches changes from a remote repository and merges them into the current branch.
   
 ```bash
   git pull [remote] [branch]
 ```
 
-<h3>Sends local commits to a remote repository.</h3>
+##### Sends local commits to a remote repository.
 
  ```bash
   git push [remote] [branch]
 ``` 
 
-<h3>Lists all remote repositories.</h3>
+##### Lists all remote repositories.
 
 ```bash
   git remote -v
 ```
 
-  <h3> Downloads changes from a remote repository without merging.</h3>
+##### Downloads changes from a remote repository without merging.
   
 ```bash
   git fetch [remote]
 ```
 
-<h3>Unstages changes, or resets the file to the last commit.</h3>
+##### Unstages changes, or resets the file to the last commit.
 
 ```bash
   git reset [file]
 ``` 
 
-<h3>Creates a new commit that undoes changes made in a previous commit.</h3>
+##### Creates a new commit that undoes changes made in a previous commit.
 
 ```bash
   git revert [commit]
 ```
   
-<h3>Removes a file from both the working directory and the staging area.</h3>
+##### Removes a file from both the working directory and the staging area.
 
 ```bash
   git rm [file]
 ```
 
-<h3>Creates a lightweight tag for a specific commit.</h3>
+##### Creates a lightweight tag for a specific commit.
 
 ```bash
   git tag [tag_name]
 ``` 
 
-<h3>Temporarily saves changes that are not ready to be committed.</h3>
+##### Temporarily saves changes that are not ready to be committed.
 
 ```bash
   git stash
 ```
 
 
-<hr>
+
